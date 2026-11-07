@@ -5,7 +5,9 @@
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?logo=scikitlearn&logoColor=white)
 [![License: MIT](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-Course project for **Artificial Intelligence & Machine Learning (623.504)**, winter semester 2026/27.
+Course project for **Artificial Intelligence & Machine Learning (623.504)**, winter semester 2026/27
+([course materials](https://github.com/konstantin-schekotihin/dl_course/tree/master/AI-ML) ·
+[project guide](https://github.com/konstantin-schekotihin/dl_course/tree/master/AI-ML/deliverables)).
 
 We predict whether a consumer-loan applicant will have payment difficulties, using the
 [Home Credit Default Risk](https://www.kaggle.com/competitions/home-credit-default-risk) dataset from Kaggle,
@@ -97,6 +99,12 @@ pip install -r requirements.txt
 
 Then download the competition data as described in [`data/README.md`](data/README.md).
 You need a Kaggle account and must accept the competition rules before the data can be downloaded.
+
+## Course
+
+- [Course materials](https://github.com/konstantin-schekotihin/dl_course/tree/master/AI-ML): lecture notebooks (classifiers, regression, logistic regression, neural networks, ensembles, SVMs, unsupervised learning)
+- [Project guide and deliverables](https://github.com/konstantin-schekotihin/dl_course/tree/master/AI-ML/deliverables): how to prepare the proposal, the report and the oral defense, with LaTeX templates
+- [Course modalities](https://github.com/konstantin-schekotihin/dl_course/blob/master/AI-ML/modalities.md): teams, grading, deadlines and W&B tracking
 
 ## References
 
