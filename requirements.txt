@@ -1,0 +1,18 @@
+# Core
+numpy
+pandas
+scikit-learn
+
+# Models
+lightgbm
+xgboost
+torch
+
+# Experiment tracking and data access
+wandb
+kaggle
+
+# Analysis and plotting
+matplotlib
+seaborn
+jupyter

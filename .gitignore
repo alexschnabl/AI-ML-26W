@@ -1,0 +1,33 @@
+# Data (Kaggle competition data must not be redistributed)
+data/*
+!data/README.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.python-version
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Experiment tracking and model artifacts
+wandb/
+*.pkl
+*.joblib
+*.pt
+*.ckpt
+submissions/
+
+# Credentials
+kaggle.json
+.env
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
