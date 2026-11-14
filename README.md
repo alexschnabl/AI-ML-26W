@@ -80,7 +80,7 @@ Because this project focuses on the main table plus a few aggregated features, w
 
 ```text
 .
-├── data/          # Kaggle data goes here (not committed, see data/README.md)
+├── data/          # Kaggle data, see data/README.md
 ├── notebooks/     # EDA and experiment notebooks
 ├── src/           # Shared preprocessing, feature engineering, and evaluation code
 ├── reports/       # Figures and the final report
@@ -97,8 +97,7 @@ source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 ```
 
-Then download the competition data as described in [`data/README.md`](data/README.md).
-You need a Kaggle account and must accept the competition rules before the data can be downloaded.
+Then download the data: [`data/README.md`](data/README.md).
 
 ## Course
 
@@ -121,5 +120,4 @@ You need a Kaggle account and must accept the competition rules before the data 
 
 ## License
 
-Code in this repository is released under the [MIT License](LICENSE).
-The Home Credit data is subject to the [Kaggle competition rules](https://www.kaggle.com/competitions/home-credit-default-risk/rules) and is not redistributed here.
+[MIT](LICENSE)
