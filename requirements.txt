@@ -1,18 +1,12 @@
-# Core
-numpy
-pandas
-scikit-learn
-
-# Models
-lightgbm
-xgboost
-torch
-
-# Experiment tracking and data access
-wandb
-kaggle
-
-# Analysis and plotting
-matplotlib
-seaborn
-jupyter
+# Python 3.12; versions match the course environment (dl_course uv.lock)
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+joblib==1.5.3
+matplotlib==3.10.9
+seaborn==0.13.2
+wandb==0.28.2
+ipykernel==6.29.5
+kaggle==2.2.5
+six==1.17.0

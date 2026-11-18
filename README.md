@@ -84,7 +84,8 @@ Because this project focuses on the main table plus a few aggregated features, w
 ├── notebooks/     # EDA and experiment notebooks
 ├── src/           # Shared preprocessing, feature engineering, and evaluation code
 ├── reports/       # Figures and the final report
-└── requirements.txt
+├── requirements.txt       # shared
+└── requirements-mlp.txt   # shared + PyTorch
 ```
 
 ## Getting started
@@ -92,9 +93,15 @@ Because this project focuses on the main table plus a few aggregated features, w
 ```bash
 git clone https://github.com/alexschnabl/AI-ML-26W.git
 cd AI-ML-26W
-python -m venv .venv
+python3.12 -m venv .venv          # Windows: py -3.12 -m venv .venv
 source .venv/bin/activate        # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+```
+
+MLP (PyTorch):
+
+```bash
+pip install -r requirements-mlp.txt   # CUDA 13.0 build, NVIDIA driver >= 580
 ```
 
 Then download the data: [`data/README.md`](data/README.md).
